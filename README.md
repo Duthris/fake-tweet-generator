@@ -1,3 +1,9 @@
+# This is a tutorial project to improve React knowledge by PROTOTURK
+
+# You can test the live demo of this project => [Duthris Fake Tweet Generator](https://fake-tweet.duthris.com).
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
