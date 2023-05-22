@@ -108,6 +108,8 @@ export default function App() {
       });
   };
 
+
+
   return (
     <>
       <div className="tweet-settings">
@@ -217,15 +219,16 @@ export default function App() {
             EN
           </span>
         </div>
-        <div className="fetch-info">
+        {/* <div className="fetch-info">
           <input
+            id="fetchInput"
             type="text"
             placeholder={languageText?.fetch_text}
             value={username}
             onChange={(e) => setUsername(e.target.value)}
-          />
-          <button onClick={fetchTwitterInfo}>{languageText?.fetch}</button>
-        </div>
+          /> */}
+        {/* <button type="submit" onClick={fetchTwitterInfo}>{languageText?.fetch}</button> */}
+        {/* </div> */}
         <div className="tweet" ref={tweetRef}>
           <div className="tweet-author">
             {(avatar && <img src={avatar} />) || <AvatarLoader />}
