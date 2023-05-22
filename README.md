@@ -1,4 +1,4 @@
-# This is a tutorial project to improve React knowledge by PROTOTURK
+# This is a tutorial project to improve React knowledge.
 
 # You can test the live demo of this project => [Duthris Fake Tweet Generator](https://fake-tweet.duthris.com).
 
