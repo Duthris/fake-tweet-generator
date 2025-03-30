@@ -1,111 +1,76 @@
-# 🐦 Fake Tweet Generator
+# This is a tutorial project to improve React knowledge.
 
-A React-based web application that allows users to create realistic-looking fake tweets. This project was created as a tutorial project to improve React skills, inspired by PROTOTURK.
+# You can test the live demo of this project => [Duthris Fake Tweet Generator](https://fake-tweet.duthris.com).
 
-## 🌟 Features
 
-- Create customizable tweet layouts
-- Support for both English and Turkish languages
-- Realistic Twitter UI components
-- Customizable tweet elements:
-  - Profile name and username
-  - Profile picture upload
-  - Tweet content
-  - Verification badge toggle
-  - Engagement metrics (retweets, quote tweets, likes)
-- Screenshot and download functionality
-- Responsive design
 
-## 🛠️ Technologies Used
+# Getting Started with Create React App
 
-- React.js (v18.1.0)
-- SASS/SCSS for styling
-- use-react-screenshot for image capture
-- react-content-loader for loading states
-- html2canvas for screenshot functionality
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## 🚀 Getting Started
+## Available Scripts
 
-### Prerequisites
+In the project directory, you can run:
 
-- Node.js (latest stable version)
-- npm or yarn package manager
+### `npm start`
 
-### Installation
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-1. Clone the repository
-```bash
-git clone https://github.com/Duthris/fake-tweet-generator.git
-```
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-2. Navigate to the project directory
-```bash
-cd fake-tweet-generator
-```
+### `npm test`
 
-3. Install dependencies
-```bash
-npm install
-# or
-yarn install
-```
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-4. Start the development server
-```bash
-npm start
-# or
-yarn start
-```
+### `npm run build`
 
-5. Open [http://localhost:3000](http://localhost:3000) in your browser
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## 💡 Usage
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-1. Fill in the tweet details in the settings panel:
-   - Enter name and username
-   - Upload a profile picture
-   - Write your tweet content
-   - Toggle verification badge
-   - Set engagement numbers (retweets, quote tweets, likes)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-2. The tweet preview will update in real-time
+### `npm run eject`
 
-3. Click the "Create" button to generate and download your tweet as a PNG image
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## 🌍 Language Support
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-The application supports two languages:
-- English (EN)
-- Turkish (TR)
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Switch between languages using the language selector in the top-right corner.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## 🎨 Customization
+## Learn More
 
-The tweet appearance follows Twitter's design guidelines and includes:
-- Profile information
-- Tweet content with support for:
-  - @mentions
-  - #hashtags
-  - URLs
-- Engagement metrics
-- Action buttons (Reply, Retweet, Like, Share)
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## 🤝 Contributing
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Contributions are welcome! Feel free to:
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+### Code Splitting
 
-## 📝 License
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-This project is open source and available under the MIT License.
+### Analyzing the Bundle Size
 
-## 🙏 Acknowledgments
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-- PROTOTURK for the tutorial inspiration
-- Twitter's design system for UI reference
-- React community for the amazing tools and libraries
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
